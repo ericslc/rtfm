@@ -1,4 +1,4 @@
-angular.module('rtfmApp').service('threadService', function(fb, Firebase) {
+app.service('threadService', function(fb, Firebase) {
 var  firebaseRef = new Firebase('https://rtfmappslc.firebaseio.com/');
 
     this.getThreads = function(){

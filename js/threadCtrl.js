@@ -1,4 +1,4 @@
-angular.module('rtfmApp').controller('threadCtrl', function ($scope, threadRef, $firebaseObject) {
+app.controller('threadCtrl', function ($scope, threadRef, $firebaseObject) {
 
   var thread = $firebaseObject(threadRef);
 

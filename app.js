@@ -1,8 +1,8 @@
-angular.module('rtfmApp', ['firebase', 'ui.router'])
-angular.module('rtfmApp').constant('fb', {
+var app = angular.module('rtfmApp', ['firebase', 'ui.router'])
+app.constant('fb', {
   url: 'https://rtfmappslc.firebaseio.com/',
 });
-angular.module('rtfmApp').config(function ($stateProvider, $urlRouterProvider) {
+app.config(function ($stateProvider, $urlRouterProvider) {
 
 
 $stateProvider
